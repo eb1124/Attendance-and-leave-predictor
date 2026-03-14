@@ -1,0 +1,5 @@
+{
+  "name": "Attendance & Leave Predictor",
+  "description": "A cute, girly student dashboard to track attendance and predict safe leaves.",
+  "requestFramePermissions": []
+}

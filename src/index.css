@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush: #F8C8DC;
+  --color-rose: #F4A6C1;
+  --color-lavender: #DCC6F0;
+  --color-cream: #FFF8F2;
+  --color-peach: #FFD9C7;
+  --color-mauve: #CFA7C9;
+  --color-plum: #5B3A4B;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-plum font-sans;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
